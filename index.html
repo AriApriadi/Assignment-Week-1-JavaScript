@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Penampilan Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Form Penampilan Data</h1>
+    <form id="myForm">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+  
+      <label for="telepon">Nomor Telepon:</label>
+      <input type="tel" id="telepon" name="telepon" required><br>
+  
+      <label for="posisi">Posisi Pekerjaan:</label>
+      <select id="posisi" name="posisi"></select><br>
+  
+      <label for="domisili">Penempatan Domisili:</label>
+      <select id="domisili" name="domisili"></select><br>
+  
+      <button type="submit">Submit</button>
+    </form>
+  
+    <div id="hasil"></div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
